@@ -1,0 +1,20 @@
+Задача 1: Собрать элементы потока в список.
+List<String> task1 = Stream.of("A", "B", "C")
+
+Задача 2: Удалить дубликаты из списка и собрать их в множество.
+List<String> task2Input = Arrays.asList("A", "B", "A", "C");
+
+Задача 4: Подсчет повторяющихся элементов и создание мапа.
+List<String> task4Input = Arrays.asList("A", "B", "A", "C", "B", "A");
+
+Задача 5: Собрать только уникальные элементы в список.
+                List<String> task5Input = Arrays.asList("A", "B", "A", "C", "B", "D");
+
+                Задача 6: Объединение элементов в строку с максимальной длиной.
+                        String task6 = Stream.of("apple", "banana", "cherry", "date")
+
+                        Задача 9: Подсчет суммы значений объектов.
+                                List<Person> task9Input = Arrays.asList(
+                                        new Person("Alice", 25),
+                                        new Person("Bob", 30),
+                                        new Person("Charlie", 35));
