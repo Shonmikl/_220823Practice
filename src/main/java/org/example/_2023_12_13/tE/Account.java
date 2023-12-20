@@ -23,7 +23,6 @@ class Empl {
     private String name;
     private String surName;
     private Account[] account;
-
     private Citezeship citizenship;
 }
 
